@@ -75,7 +75,7 @@ def get_pie_chart(entered_site):
                 title=entered_site,
                 )
         return fig
-    
+"""
 @app.callback(
     Output(component_id='success-payload-scatter-chart', component_property='figure'),
 
@@ -83,8 +83,9 @@ def get_pie_chart(entered_site):
      Input(component_id="payload-slider", component_property="value")]
 )
 def get_Scatter_plot(dropd, slider):
-    if dropd == "All Sites"
-
+    if dropd == "All Sites":
+        return
+"""
 # Run the app
 if __name__ == '__main__':
     app.run_server(port = 8054)
